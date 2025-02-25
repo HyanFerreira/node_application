@@ -1,0 +1,14 @@
+{
+  "name": "node_application",
+  "version": "1.0.0",
+  "description": "Primeira Aplicação em Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --watch src/server.js"
+  },
+  "author": "Hyan Ferreira",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
