@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Primeira Aplicação em Node.js",
   "main": "server.js",
+  "type": "module",
   "scripts": {
-    "start": "node --watch src/server.js"
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
   },
   "author": "Hyan Ferreira",
   "license": "ISC",
