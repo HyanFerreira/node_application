@@ -31,7 +31,7 @@ router.put("/", (req, res) => {
 router.patch("/", (req, res) => {
   res.json({
     message: "Avatar editado com sucesso!",
-    user: user.avatar = "http://github.com/lastfenrreira.png"
+    user: (user.avatar = "http://github.com/lastfenrreira.png")
   });
 });
 

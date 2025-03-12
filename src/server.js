@@ -5,6 +5,7 @@ import propertyRouter from "./routers/propertyRouter.js";
 
 const app = express();
 const port = 3000;
+app.use(express.json());
 
 app.use("/user", userRouter);
 app.use("/property", propertyRouter);
